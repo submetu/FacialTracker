@@ -1,0 +1,29 @@
+{
+  "name": "facialtracker",
+  "version": "1.0.0",
+  "description": "Face tracking using PoseNet and TensorFlow.js",
+  "main": "sketch.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"node node_modules/http-server/bin/http-server "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/submetu/FacialTracker.git"
+  },
+  "keywords": [
+    "facial",
+    "tracker",
+    "tensorflowjs",
+    "posenet"
+  ],
+  "author": "Subhan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/submetu/FacialTracker/issues"
+  },
+  "homepage": "https://github.com/submetu/FacialTracker#readme",
+  "dependencies": {
+    "http-server": "^0.11.1"
+  }
+}
